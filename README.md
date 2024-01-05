@@ -25,7 +25,17 @@ gemini.Gemini_Pro_chat() # REPLACE THE MODEL NAME AS PER YOUR NEED
 
 1 - **Obtain a Gemini API Key**: Visit this official website to acquire your API key: https://makersuite.google.com/app/apikey
 
-2 - **Install Necessary Libraries**: Utilize Python's package manager to install the required libraries: google-generativeai, PIL, pyttsx3, and cv2.
+2 - **Install Necessary Libraries**: Utilize Python's package manager to install the required libraries: 
+
+- google-generativeai, 
+- PIL,
+- pyttsx3,
+- cv2
+
+**You can use this pip command to install required modules:**
+```bash
+pip install google-generativeai pillow pyttsx3 cv2
+```
 
 3 - **Incorporate Your API Key**: Within the code, replace "YOUR GEMINI API KEY" with your actual API key.
 
