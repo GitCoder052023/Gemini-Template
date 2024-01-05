@@ -107,11 +107,3 @@ class Gemini:
 
         # Release video capture
         cap.release()
-
-
-Note = '''
-gemini = Gemini(key="YOUR GEMINI API KEY")
-
-#Example usage:
-gemini.Gemini_Pro_chat()
-'''  # use this line when you want to initialize this template
